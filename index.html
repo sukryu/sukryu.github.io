@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="navToggle" class="nav-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+    <nav id="sideNav" class="side-nav">
+        <a href="javascript:void(0)" class="close-btn" id="closeNav">&times;</a>
+        <a href="#introduction" class="nav-link">Introduction</a>
+        <a href="#technical-skills" class="nav-link">Technical Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#additional-info" class="nav-link">Additional Information</a>
+        <a href="#references" class="nav-link">References</a>
+    </nav>
+
+    <div class="content-wrapper">
+        <header>
+            <img src="images/profile.jpeg" alt="Profile Picture" class="profile-picture">
+            <div class="header-content">
+                <h1>JinHyeok Hong</h1>
+                <p>Backend Developer</p>
+                <p>Email:  | Phone: </p>
+                <p><a href="https://www.linkedin.com/in/%EC%A7%84%ED%98%81-%ED%99%8D-9817b9273">LinkedIn</a> | <a href="https://github.com/sukryu">GitHub</a></p>
+                <div id="date"></div>
+            </div>
+        </header>
+        
+        <main>
+            <section id="introduction" class="fade-in">
+                <h2>Introduction</h2>
+                <p>Hello, I am Hong Jin-hyuk, a first year student at Hannam University. I am a student of Computer Engineering and my preferred position is server development. My favorite languages ​​are Js, Ts, Node.js, and Nest.js.</p>
+            </section>
+            
+            <section id="technical-skills" class="fade-in">
+                <h2>Technical Skills</h2>
+                <div class="tech-category">
+                    <h3>Languages and Frameworks</h3>
+                    <div class="tech-icons">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5" height="70">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS3" height="70">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript" height="70">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="TypeScript" height="70">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Node.js" height="70">
+                        <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_go_gopher_icon_130571.png" alt="Go" height="70">
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Database</h3>
+                    <div class="tech-icons">
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL" height="70">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png" alt="Oracle" height="70">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8t0A8mwWx62FT5k9xVWZcy_K5eH4RrZCfTw&usqp=CAU" alt="MariaDB" height="70">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvsVXbNtMTXsiA2AjO4OIOYHa-XaqaJhqzLVawPrrs_Q&s" alt="Cassandra" height="70">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW7nJp9cxNpSldcuGrxETHqBOGws87fzmF9Q&s" alt="Redis" height="70">
+                        <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/postgresql_original_wordmark_logo_icon_146392.png" alt="PostgreSQL" height="70">
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Tools</h3>
+                    <div class="tech-icons">
+                        <img src="https://code.visualstudio.com/assets/apple-touch-icon.png" alt="VSCode" height="70">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png" alt="Visual Studio" height="70">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="projects" class="fade-in">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>1. E-commerce Authentication Services</h3>
+                    <p><strong>Duration:</strong> January 2023 - August 2023</p>
+                    <p><strong>Description:</strong> The user authentication and authorization service used in the E-commerce platform has been developed in the form of a microservice, and the project is structured in a multi-repo manner. Among the user functions, an important feature is social login to Google, Facebook, Instagram, Kakao, and Naver through Oauth2, and there are various other key functions. </p>
+                    <p><strong>Role & Responsibilities:</strong> Lead Developer & Lead Project Manager & Owner of Project</p>
+                    <p><strong>Technologies Used:</strong> TypeScript, Node.js, Nest.js, Oauth2, JWT, Postgres, Redis, Docker, Kubernetes, etc...</p>
+                    <p><strong>Outcome:</strong> Improved system scalability by 30%...</p>
+                </div>
+                <div class="project">
+                    <h3>2. Realtime data processing platform</h3>
+                    <p><strong>Duration:</strong> April 2024 - ~</p>
+                    <p><strong>Description:</strong> <a href="https://github.com/sukryu/realtime-data-platform-auth-service">DESC</a></p>
+                    <p><strong>Role & Responsibilities:</strong> Lead Developer & Lead Project Manager & Owner of Project</p>
+                    <p><strong>Technologies Used:</strong> TypeScript, Node.js, Nest.js, Oauth2, JWT, Postgres, Redis, Docker, Kubernetes, etc...</p>
+                    <p><strong>Outcome:</strong> Improved system scalability by 30%...</p>
+                </div>
+            </section>
+            
+            <section id="additional-info" class="fade-in">
+                <h2>Additional Information</h2>
+                <p><strong>Languages:</strong> Korean (Fluent), English (Intermediate), Japanese(?)</p>
+                <p><strong>Hobbies:</strong> FPS Game, Sleep, Coding</p>
+            </section>
+            
+            <section id="references" class="fade-in">
+                <h2>References</h2>
+                <p><strong>Name:</strong> JinHyeok Hong</p>
+                <p><strong>Position:</strong> Backend Dev</p>
+                <p><strong>Contact:</strong> hjinhyeog162@gmail.com</p>
+            </section>
+        </main>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
